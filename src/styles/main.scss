@@ -1,0 +1,45 @@
+//FONTS
+// ici sont chargé les fonts
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Jomolhari&family=Montserrat:wght@900&display=swap');
+
+// TOOLS
+// mixins et fonctions utilisés globalement dans le SCSS (Sass)
+
+// SETTINGS
+// Contient les variables sur les polices, les définitions de couleurs, les définitions de  grandeurs,   etc.
+@import 'settings/colors';
+@import 'settings/easing';
+@import 'settings/fonts';
+@import 'settings/dimensions';
+
+// GENERIC
+// Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
+@import 'generic/normalize';
+@import 'generic/reset';
+
+// ELEMENTS
+// Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
+@import 'elements/body';
+@import 'elements/headings';
+@import 'elements/links';
+@import 'elements/wrapper';
+
+// COMPONENTS
+// Composants d'interface utilisateur spécifiques.
+// C’est là que la majorité de notre travail a lieu.
+@import 'components/default'; // Ne pas éditer ce fichier.
+@import 'components/default_exercice'; // Ne pas éditer ce fichier.
+
+@import 'components/icons.scss';
+@import 'components/numero1';
+@import 'components/numero2';
+@import 'components/numero3';
+@import 'components/numero4';
+@import 'components/numero5';
+@import 'components/numero6';
+@import 'components/numero7';
+@import 'components/numero8';
+
+// UTILITIES
+// Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
+@import 'utilities/accessibility';

@@ -1,0 +1,42 @@
+/* ==========================================================================
+   base de l'exercice / Ne pas jouer dans ce fichier SCSS
+   ======================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+/*
+   number 1 - menu avec icône
+   ========================================================================== */
+
+.nav--main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+        display: flex;
+        list-style: none;
+    }
+}
+.nav__brand {
+    font-size: 44px;
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+
+    .button {
+        margin-left: 50px;
+    }
+}
+.nav__item {
+    padding: 0 10px;
+    color: var(--color-white);
+}
+
+.button {
+    border: 2px var(--color-primary) solid;
+    padding: 5px 20px;
+}
